@@ -1,0 +1,150 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Media Query */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+  .nav-links li a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+.section {
+  padding: 2rem;
+}
+/* Center everything inside all sections */
+.section {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #fff; /* Default white text for contrast */
+}
+
+/* Different background colors per section */
+#home {
+  background-color: #3498db; /* Blue */
+}
+
+#about {
+  background-color: #2ecc71; /* Green */
+}
+
+#products {
+  background-color: #f39c12; /* Orange */
+}
+
+#contact {
+  background-color: #9b59b6; /* Purple */
+}
+
+/* Contact form centering (optional if you use a form) */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+  
